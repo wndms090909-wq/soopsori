@@ -1,0 +1,36 @@
+.circle{
+    width:100px;
+    height:100px;
+    background:deepskyblue;
+    border-radius:50%;
+    position:absolute;
+    animation-name:circleAni;
+    animation-duration:3s;
+    /* 무한반복 */
+    animation-iteration-count:infinite;
+    /* 다시돌아오기 */
+    animation-direction:alternate;
+}
+
+@keyframes circleAni{
+    /* from{
+        left:10px;
+        top:10px;
+    }
+    to{
+        left:800px;
+        top:500px;
+    } */
+     0%{
+        left:10px;
+        top:10px;
+     }
+     50%{
+        left:1000px;
+        top:10px;
+     }
+     100%{
+        left:800px;
+        top:500px;
+     }
+}
